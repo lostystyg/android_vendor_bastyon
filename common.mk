@@ -4,7 +4,8 @@
 PRODUCT_PACKAGES += \
 	AuroraStore \
 	Bastyon \
-	F-Droid
+	F-Droid \
+	K9
 	# Brave \
 	# Exodus \
 	# ProtonVPN \
