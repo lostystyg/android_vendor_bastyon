@@ -4,6 +4,9 @@ package {
 
 android_app_import {
     name: "Bastyon",
-    apk: "Bastyon.apk",
-    presigned: true
+    apk: "bastyon_v0.8.45_Latest.apk",
+    dex_preopt: {
+       enabled: false,
+    },
+    presigned: true,
 }

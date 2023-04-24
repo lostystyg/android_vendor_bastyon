@@ -1,0 +1,13 @@
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+android_app_import {
+    name: "Brave",
+    apk: "BraveMonoarm64_Release_v1.50.119.apk",
+    dex_preopt: {
+        enabled: false,
+    },
+    presigned: true,
+    product_specific: true
+}
