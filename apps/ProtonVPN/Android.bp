@@ -1,0 +1,18 @@
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+android_app_import {
+    name: "ProtonVPN",
+    apk: "ProtonVPN-4.5.76.0.apk",
+    presigned: true,
+    dex_preopt: {
+       enabled: false,
+    },
+    optional_uses_libs: [
+        "org.apache.http.legacy",
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+    ],
+    product_specific: true
+}

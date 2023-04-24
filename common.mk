@@ -2,7 +2,15 @@
 #
 
 PRODUCT_PACKAGES += \
-	Bastyon	
+	AuroraStore \
+	Bastyon \
+	F-Droid
+	# Brave \
+	# Exodus \
+	# ProtonVPN \
+	# QKSMS \
+	# AdAway \
+	# K9
 
 PRODUCT_PACKAGE_OVERLAYS += \
 	vendor/bastyon/overlay/
