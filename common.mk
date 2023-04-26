@@ -13,5 +13,5 @@ PRODUCT_PACKAGES += \
 	# AdAway \
 	# K9
 
-PRODUCT_PACKAGE_OVERLAYS += \
-	vendor/bastyon/overlay/
+# PRODUCT_PACKAGE_OVERLAYS += \
+# 	vendor/bastyon/overlay/
